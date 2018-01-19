@@ -8,22 +8,36 @@
 </head>
 
 <body>
-	<div class="main">
-		<div class="content">
-			<div>
-				<h1>请输入验证码</h1>
-			</div>
-			<div>
-				<div class="input-box"><input maxlength="1" type="tel" class="input1 onfocus" autofocus="autofocus"></div>
-				<div class="input-box"><input maxlength="1" type="tel" readonly="readonly" class="input2"></div>
-				<div class="input-box"><input maxlength="1" type="tel" readonly="readonly" class="input3"></div>
-				<div class="input-box"><input maxlength="1" type="tel" readonly="readonly" class="input4"></div>
-			</div>
-			<div class="btn-box">
-				<button class="btn-confirm">确认</button>
-			</div>
-		</div>
-		
-	</div>
+	<div class="newpay newpay_scanpay">
+        <div class="newpay_head_text">
+            <h2>请输入验证码</h2>
+            <p>由酒店前台人员告知</p>
+        </div>
+        <input type="tel" autofocus="autofocus" class="inputHidden">
+        <div class="newpay_identify_code pure-g">
+            <div class="pure-u-1-4">
+                <input maxlength="1" type="tel" readonly="readonly" class="newpay_scanpay_input1 onfocus">
+            </div>
+            <div class="pure-u-1-4">
+                <input maxlength="1" type="tel" readonly="readonly" class="newpay_scanpay_input2">
+            </div>
+            <div class="pure-u-1-4">
+                <input maxlength="1" type="tel" readonly="readonly" class="newpay_scanpay_input3">
+            </div>
+            <div class="pure-u-1-4">
+                <input maxlength="1" type="tel" readonly="readonly" class="newpay_scanpay_input4">
+            </div>
+        </div>
+        <div class="Cbtn btn-large btn-confirm btn-confirm-disable">确认</div>
+        <div class="popup scanpay_reminder">
+            <div class="popupcontent scanpay_popupcontent">
+                <div class="main">
+                    <div class="scanpay_reminder_title">提示</div>
+                    <div class="scanpay_reminder_text">查询不到<span>6548</span>相关的订单请与前台确认后重新输入</div>
+                    <div class="Cbtn btn-primary-pure btn-confirm">确认</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
