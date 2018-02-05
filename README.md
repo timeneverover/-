@@ -6,4 +6,4 @@
 
 兼容移动端
 
-示例图片： [未输入]<https://github.com/timeneverover/WXPasswordInput/raw/master/img/example1.png> [已输入]<https://github.com/timeneverover/WXPasswordInput/raw/master/img/example2.png>
+示例图片： ![未输入](<https://github.com/timeneverover/WXPasswordInput/raw/master/img/example1.png>) ![已输入](<https://github.com/timeneverover/WXPasswordInput/raw/master/img/example2.png>)
